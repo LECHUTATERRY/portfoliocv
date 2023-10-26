@@ -1,0 +1,146 @@
+
+body{
+    color: black;
+    background-image: url(20220211_153454.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background: skyblue;
+}
+.header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo
+{
+    position: relative;
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight is ease forwards;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    
+}
+.navbar a:hover{
+    color: aqua;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    height: 100vh;
+    background: url("20220211_153454.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home.content{
+    max-width: 640px;
+}
+.home.content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home-content p{
+    font-size: 20px;
+}
+.home-scl a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid lightskyblue;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    transition: .5s ease;
+    
+
+    margin: 30px 15px 30px 0;
+
+}
+.home-scl a:hover{
+    background: yellow;
+    color: blueviolet;
+    box-shadow: 0 0 20px plum;
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: turquoise;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
+.About{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.About-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+.About-text h2{
+    font-size: 6opx;
+}
+.About-text h2 span{
+    color: blueviolet;
+}
+.About-text h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.4;
+    margin: 15px 0 30px;
+}
+.About-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
